@@ -9,7 +9,8 @@ Another feature allows you to gnereate different types of scrambles in fifferent
 ## Running the program
 In order to run this program, you need Kociemba inistalled on your computer. `pip install kociemba`  
 More inofrmation on Koceimba here: https://github.com/muodov/kociemba  
-If you don't have Pip installed, go here: https://pip.pypa.io/en/stable/installing/
+If you don't have Pip installed, go here: https://pip.pypa.io/en/stable/installing/  
+Once the program is running, Specify the type of scramble you want (see below), click `scramble`, scramble your cube in your blindsolving orientation, and start solving! 
 
 ## Scramble Modes
 ### Number of algorithms
@@ -49,5 +50,9 @@ algs 7 2
 algs 11 5
 ```
 will generate scrambles such that 2/7 of the scrambles require 7 algorithms to solve, and 5/7 of the scrambles require 11 algorithms to solve.
+
+
+## Coming Soon
+- Configurable buffer pieces and parity swap pieces
 
 
